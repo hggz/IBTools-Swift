@@ -10,6 +10,8 @@
 		90DB9D5B1DD7E2DE00C7046F /* IBTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DB9D511DD7E2DE00C7046F /* IBTools.framework */; };
 		90DB9D601DD7E2DE00C7046F /* IBToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DB9D5F1DD7E2DE00C7046F /* IBToolsTests.swift */; };
 		90DB9D621DD7E2DE00C7046F /* IBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 90DB9D541DD7E2DE00C7046F /* IBTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		90DB9D6C1DD7E2F800C7046F /* IBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DB9D6B1DD7E2F800C7046F /* IBView.swift */; };
+		90DB9D6D1DD7E2F800C7046F /* IBView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DB9D6B1DD7E2F800C7046F /* IBView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,6 +31,7 @@
 		90DB9D5A1DD7E2DE00C7046F /* IBToolsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IBToolsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DB9D5F1DD7E2DE00C7046F /* IBToolsTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IBToolsTests.swift; sourceTree = "<group>"; };
 		90DB9D611DD7E2DE00C7046F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		90DB9D6B1DD7E2F800C7046F /* IBView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,6 +76,7 @@
 			children = (
 				90DB9D541DD7E2DE00C7046F /* IBTools.h */,
 				90DB9D551DD7E2DE00C7046F /* Info.plist */,
+				90DB9D6B1DD7E2F800C7046F /* IBView.swift */,
 			);
 			path = IBTools;
 			sourceTree = "<group>";
@@ -148,6 +152,7 @@
 				TargetAttributes = {
 					90DB9D501DD7E2DE00C7046F = {
 						CreatedOnToolsVersion = 8.0;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 					90DB9D591DD7E2DE00C7046F = {
@@ -196,6 +201,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				90DB9D6C1DD7E2F800C7046F /* IBView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -204,6 +210,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				90DB9D601DD7E2DE00C7046F /* IBToolsTests.swift in Sources */,
+				90DB9D6D1DD7E2F800C7046F /* IBView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +327,7 @@
 		90DB9D661DD7E2DE00C7046F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -331,6 +339,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.catbakery.IBTools;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -338,6 +347,7 @@
 		90DB9D671DD7E2DE00C7046F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -356,6 +366,7 @@
 		90DB9D691DD7E2DE00C7046F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = IBToolsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.catbakery.IBToolsTests;
@@ -367,6 +378,7 @@
 		90DB9D6A1DD7E2DE00C7046F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				INFOPLIST_FILE = IBToolsTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.catbakery.IBToolsTests;
