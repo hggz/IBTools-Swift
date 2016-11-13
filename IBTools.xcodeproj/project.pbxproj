@@ -146,6 +146,7 @@
 		90DB9D481DD7E2DE00C7046F /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = IB;
 				LastSwiftUpdateCheck = 0800;
 				LastUpgradeCheck = 0800;
 				ORGANIZATIONNAME = "Cat Bakery";
