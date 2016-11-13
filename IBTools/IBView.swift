@@ -28,7 +28,7 @@ open class IBView : UIView {
 
     open var viewListenerDelegate: IBViewListener?
     
-    override init (frame: CGRect) {
+    public override init (frame: CGRect) {
         super.init(frame: frame)
         sharedInitialization()
     }
