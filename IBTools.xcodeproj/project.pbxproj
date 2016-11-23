@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2E4860A51DE62F36004D720E /* IBGlobal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E4860A41DE62F36004D720E /* IBGlobal.swift */; };
 		90DB9D5B1DD7E2DE00C7046F /* IBTools.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 90DB9D511DD7E2DE00C7046F /* IBTools.framework */; };
 		90DB9D601DD7E2DE00C7046F /* IBToolsTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90DB9D5F1DD7E2DE00C7046F /* IBToolsTests.swift */; };
 		90DB9D621DD7E2DE00C7046F /* IBTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 90DB9D541DD7E2DE00C7046F /* IBTools.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -25,6 +26,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2E4860A41DE62F36004D720E /* IBGlobal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IBGlobal.swift; sourceTree = "<group>"; };
 		90DB9D511DD7E2DE00C7046F /* IBTools.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IBTools.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		90DB9D541DD7E2DE00C7046F /* IBTools.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IBTools.h; sourceTree = "<group>"; };
 		90DB9D551DD7E2DE00C7046F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,6 +79,7 @@
 				90DB9D541DD7E2DE00C7046F /* IBTools.h */,
 				90DB9D551DD7E2DE00C7046F /* Info.plist */,
 				90DB9D6B1DD7E2F800C7046F /* IBView.swift */,
+				2E4860A41DE62F36004D720E /* IBGlobal.swift */,
 			);
 			path = IBTools;
 			sourceTree = "<group>";
@@ -202,6 +205,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2E4860A51DE62F36004D720E /* IBGlobal.swift in Sources */,
 				90DB9D6C1DD7E2F800C7046F /* IBView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +411,7 @@
 				90DB9D671DD7E2DE00C7046F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		90DB9D681DD7E2DE00C7046F /* Build configuration list for PBXNativeTarget "IBToolsTests" */ = {
 			isa = XCConfigurationList;
@@ -415,6 +420,7 @@
 				90DB9D6A1DD7E2DE00C7046F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
